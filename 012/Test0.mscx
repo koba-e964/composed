@@ -8,12 +8,8 @@
   <Style>
     <systemDistance>9.2</systemDistance>
     <bracketDistance>0.2</bracketDistance>
-    <pageFillLimit>0.7</pageFillLimit>
     <showMeasureNumberOne>1</showMeasureNumberOne>
     <measureNumberAllStaffs>1</measureNumberAllStaffs>
-    <smallNoteMag>0.7</smallNoteMag>
-    <graceNoteMag>0.7</graceNoteMag>
-    <smallStaffMag>0.7</smallStaffMag>
     </Style>
   <showInvisible>1</showInvisible>
   <showFrames>1</showFrames>
@@ -85,27 +81,27 @@
       <nom>2</nom>
       <denom>4</denom>
       </sig>
-    <sig tick="13440">
+    <sig tick="15360">
       <nom2>3</nom2>
       <denom2>4</denom2>
       <nom>4</nom>
       <denom>4</denom>
       </sig>
-    <sig tick="15360">
+    <sig tick="17280">
       <nom>3</nom>
       <denom>4</denom>
       </sig>
-    <sig tick="16800">
+    <sig tick="18720">
       <nom>2</nom>
       <denom>4</denom>
       </sig>
-    <sig tick="17760">
+    <sig tick="19680">
       <nom2>3</nom2>
       <denom2>4</denom2>
       <nom>2</nom>
       <denom>4</denom>
       </sig>
-    <sig tick="21600">
+    <sig tick="23520">
       <nom>3</nom>
       <denom>4</denom>
       </sig>
@@ -793,14 +789,94 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="11">
-      <Rest>
+      <Chord>
         <durationType>quarter</durationType>
-        </Rest>
+        <Note>
+          <pitch>67</pitch>
+          <tpc>15</tpc>
+          </Note>
+        <Note>
+          <pitch>68</pitch>
+          <tpc>10</tpc>
+          </Note>
+        <Note>
+          <pitch>72</pitch>
+          <tpc>14</tpc>
+          </Note>
+        </Chord>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>68</pitch>
+          <tpc>10</tpc>
+          </Note>
+        <Note>
+          <pitch>72</pitch>
+          <tpc>14</tpc>
+          </Note>
+        <Note>
+          <pitch>77</pitch>
+          <tpc>13</tpc>
+          </Note>
+        </Chord>
+      </Measure>
+    <Measure number="12">
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>66</pitch>
+          <tpc>8</tpc>
+          </Note>
+        <Note>
+          <pitch>70</pitch>
+          <tpc>12</tpc>
+          </Note>
+        <Note>
+          <pitch>75</pitch>
+          <tpc>11</tpc>
+          </Note>
+        </Chord>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>66</pitch>
+          <tpc>20</tpc>
+          </Note>
+        <Note>
+          <pitch>71</pitch>
+          <tpc>19</tpc>
+          </Note>
+        <Note>
+          <pitch>73</pitch>
+          <tpc>9</tpc>
+          </Note>
+        </Chord>
+      </Measure>
+    <Measure number="13">
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>65</pitch>
+          <tpc>13</tpc>
+          </Note>
+        <Note>
+          <pitch>67</pitch>
+          <tpc>15</tpc>
+          </Note>
+        <Note>
+          <pitch>72</pitch>
+          <tpc>14</tpc>
+          </Note>
+        </Chord>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
       </Measure>
-    <Measure number="12">
+    <Measure number="14">
+      <Text>
+        <style>17</style>
+        <subtype>MeasureNumber</subtype>
+        </Text>
       <Tuplet id="5">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -913,7 +989,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="13">
+    <Measure number="15">
       <Tuplet id="6">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -984,11 +1060,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="14">
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
+    <Measure number="16">
       <TimeSig>
         <subtype>132</subtype>
         <den>4</den>
@@ -998,7 +1070,7 @@ p, li { white-space: pre-wrap; }
         <durationType>measure</durationType>
         </Rest>
       </Measure>
-    <Measure number="15">
+    <Measure number="17">
       <Tuplet id="7">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1074,7 +1146,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="16">
+    <Measure number="18">
       <Rest>
         <durationType>eighth</durationType>
         </Rest>
@@ -1116,7 +1188,11 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="17">
+    <Measure number="19">
+      <Text>
+        <style>17</style>
+        <subtype>MeasureNumber</subtype>
+        </Text>
       <Tuplet id="8">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1192,7 +1268,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="18">
+    <Measure number="20">
       <Rest>
         <durationType>eighth</durationType>
         </Rest>
@@ -1234,7 +1310,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="19">
+    <Measure number="21">
       <Tuplet id="9">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1356,11 +1432,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="20">
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
+    <Measure number="22">
       <Tuplet id="10">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1428,16 +1500,6 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="21">
-      <Rest>
-        <durationType>measure</durationType>
-        </Rest>
-      </Measure>
-    <Measure number="22">
-      <Rest>
-        <durationType>measure</durationType>
-        </Rest>
-      </Measure>
     <Measure number="23">
       <Rest>
         <durationType>measure</durationType>
@@ -1454,6 +1516,10 @@ p, li { white-space: pre-wrap; }
         </Rest>
       </Measure>
     <Measure number="26">
+      <Text>
+        <style>17</style>
+        <subtype>MeasureNumber</subtype>
+        </Text>
       <Rest>
         <durationType>measure</durationType>
         </Rest>
@@ -1484,6 +1550,16 @@ p, li { white-space: pre-wrap; }
         </Rest>
       </Measure>
     <Measure number="32">
+      <Rest>
+        <durationType>measure</durationType>
+        </Rest>
+      </Measure>
+    <Measure number="33">
+      <Rest>
+        <durationType>measure</durationType>
+        </Rest>
+      </Measure>
+    <Measure number="34">
       <Rest>
         <durationType>measure</durationType>
         </Rest>
@@ -1734,14 +1810,66 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="11">
-      <Rest>
+      <Chord>
         <durationType>quarter</durationType>
-        </Rest>
+        <Note>
+          <pitch>44</pitch>
+          <tpc>10</tpc>
+          </Note>
+        <Note>
+          <pitch>51</pitch>
+          <tpc>11</tpc>
+          </Note>
+        </Chord>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>49</pitch>
+          <tpc>9</tpc>
+          </Note>
+        <Note>
+          <pitch>56</pitch>
+          <tpc>10</tpc>
+          </Note>
+        </Chord>
+      </Measure>
+    <Measure number="12">
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>42</pitch>
+          <tpc>8</tpc>
+          </Note>
+        <Note>
+          <pitch>49</pitch>
+          <tpc>9</tpc>
+          </Note>
+        </Chord>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>47</pitch>
+          <tpc>19</tpc>
+          </Note>
+        <Note>
+          <pitch>54</pitch>
+          <tpc>20</tpc>
+          </Note>
+        </Chord>
+      </Measure>
+    <Measure number="13">
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>46</pitch>
+          <tpc>12</tpc>
+          </Note>
+        </Chord>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
       </Measure>
-    <Measure number="12">
+    <Measure number="14">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1784,7 +1912,7 @@ p, li { white-space: pre-wrap; }
         <durationType>half</durationType>
         </Rest>
       </Measure>
-    <Measure number="13">
+    <Measure number="15">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1827,7 +1955,7 @@ p, li { white-space: pre-wrap; }
         <durationType>quarter</durationType>
         </Rest>
       </Measure>
-    <Measure number="14">
+    <Measure number="16">
       <TimeSig>
         <subtype>132</subtype>
         <den>4</den>
@@ -1837,7 +1965,7 @@ p, li { white-space: pre-wrap; }
         <durationType>measure</durationType>
         </Rest>
       </Measure>
-    <Measure number="15">
+    <Measure number="17">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1861,12 +1989,12 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="16">
+    <Measure number="18">
       <Rest>
         <durationType>measure</durationType>
         </Rest>
       </Measure>
-    <Measure number="17">
+    <Measure number="19">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1890,12 +2018,12 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="18">
+    <Measure number="20">
       <Rest>
         <durationType>measure</durationType>
         </Rest>
       </Measure>
-    <Measure number="19">
+    <Measure number="21">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1930,7 +2058,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="20">
+    <Measure number="22">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1969,16 +2097,6 @@ p, li { white-space: pre-wrap; }
           <tpc>12</tpc>
           </Note>
         </Chord>
-      </Measure>
-    <Measure number="21">
-      <Rest>
-        <durationType>measure</durationType>
-        </Rest>
-      </Measure>
-    <Measure number="22">
-      <Rest>
-        <durationType>measure</durationType>
-        </Rest>
       </Measure>
     <Measure number="23">
       <Rest>
@@ -2026,6 +2144,16 @@ p, li { white-space: pre-wrap; }
         </Rest>
       </Measure>
     <Measure number="32">
+      <Rest>
+        <durationType>measure</durationType>
+        </Rest>
+      </Measure>
+    <Measure number="33">
+      <Rest>
+        <durationType>measure</durationType>
+        </Rest>
+      </Measure>
+    <Measure number="34">
       <Rest>
         <durationType>measure</durationType>
         </Rest>
