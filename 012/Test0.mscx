@@ -36,8 +36,6 @@
       <denom>4</denom>
       </sig>
     <sig tick="1440">
-      <nom2>3</nom2>
-      <denom2>4</denom2>
       <nom>2</nom>
       <denom>4</denom>
       </sig>
@@ -46,8 +44,6 @@
       <denom>4</denom>
       </sig>
     <sig tick="3840">
-      <nom2>3</nom2>
-      <denom2>4</denom2>
       <nom>2</nom>
       <denom>4</denom>
       </sig>
@@ -56,8 +52,6 @@
       <denom>4</denom>
       </sig>
     <sig tick="7680">
-      <nom2>3</nom2>
-      <denom2>4</denom2>
       <nom>2</nom>
       <denom>4</denom>
       </sig>
@@ -66,8 +60,6 @@
       <denom>4</denom>
       </sig>
     <sig tick="10080">
-      <nom2>3</nom2>
-      <denom2>4</denom2>
       <nom>2</nom>
       <denom>4</denom>
       </sig>
@@ -76,14 +68,10 @@
       <denom>4</denom>
       </sig>
     <sig tick="12480">
-      <nom2>3</nom2>
-      <denom2>4</denom2>
       <nom>2</nom>
       <denom>4</denom>
       </sig>
     <sig tick="15360">
-      <nom2>3</nom2>
-      <denom2>4</denom2>
       <nom>4</nom>
       <denom>4</denom>
       </sig>
@@ -91,17 +79,17 @@
       <nom>3</nom>
       <denom>4</denom>
       </sig>
-    <sig tick="18720">
-      <nom>2</nom>
-      <denom>4</denom>
-      </sig>
-    <sig tick="19680">
-      <nom2>3</nom2>
+    <sig tick="20160">
+      <nom2>2</nom2>
       <denom2>4</denom2>
+      <nom>1</nom>
+      <denom>4</denom>
+      </sig>
+    <sig tick="20640">
       <nom>2</nom>
       <denom>4</denom>
       </sig>
-    <sig tick="23520">
+    <sig tick="24480">
       <nom>3</nom>
       <denom>4</denom>
       </sig>
@@ -302,6 +290,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="2">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -356,6 +349,11 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Beam id="1">
         </Beam>
       <Chord>
@@ -413,6 +411,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="4">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -471,6 +474,11 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Beam id="2">
         </Beam>
       <Chord>
@@ -524,6 +532,10 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="6">
+      <Text>
+        <style>17</style>
+        <subtype>MeasureNumber</subtype>
+        </Text>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -598,15 +610,16 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="7">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Rest>
         <durationType>measure</durationType>
         </Rest>
       </Measure>
     <Measure number="8">
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
       <Tuplet id="3">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -625,6 +638,11 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Beam id="4">
         </Beam>
       <Chord>
@@ -678,6 +696,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="9">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -789,6 +812,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="11">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -821,6 +849,10 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="12">
+      <Text>
+        <style>17</style>
+        <subtype>MeasureNumber</subtype>
+        </Text>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -873,10 +905,6 @@ p, li { white-space: pre-wrap; }
         </Rest>
       </Measure>
     <Measure number="14">
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
       <Tuplet id="5">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -895,12 +923,17 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
-      <Beam id="6">
+      <TimeSig>
+        <subtype>260</subtype>
+        <den>4</den>
+        <nom1>4</nom1>
+        </TimeSig>
+      <Beam id="15">
         </Beam>
       <Chord>
         <Tuplet>5</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>6</Beam>
+        <Beam>15</Beam>
         <Note>
           <pitch>67</pitch>
           <tpc>15</tpc>
@@ -913,7 +946,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>5</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>6</Beam>
+        <Beam>15</Beam>
         <Note>
           <pitch>68</pitch>
           <tpc>10</tpc>
@@ -926,7 +959,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>5</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>6</Beam>
+        <Beam>15</Beam>
         <Note>
           <pitch>70</pitch>
           <tpc>12</tpc>
@@ -950,11 +983,11 @@ p, li { white-space: pre-wrap; }
       <Rest>
         <durationType>eighth</durationType>
         </Rest>
-      <Beam id="7">
+      <Beam id="14">
         </Beam>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>7</Beam>
+        <Beam>14</Beam>
         <Note>
           <pitch>67</pitch>
           <tpc>15</tpc>
@@ -966,7 +999,7 @@ p, li { white-space: pre-wrap; }
         </Chord>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>7</Beam>
+        <Beam>14</Beam>
         <Note>
           <pitch>62</pitch>
           <tpc>16</tpc>
@@ -978,7 +1011,7 @@ p, li { white-space: pre-wrap; }
         </Chord>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>7</Beam>
+        <Beam>14</Beam>
         <Note>
           <pitch>58</pitch>
           <tpc>12</tpc>
@@ -1008,12 +1041,17 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
-      <Beam id="8">
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
+      <Beam id="6">
         </Beam>
       <Chord>
         <Tuplet>6</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>8</Beam>
+        <Beam>6</Beam>
         <Note>
           <pitch>63</pitch>
           <tpc>11</tpc>
@@ -1022,7 +1060,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>6</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>8</Beam>
+        <Beam>6</Beam>
         <Note>
           <pitch>65</pitch>
           <tpc>13</tpc>
@@ -1031,7 +1069,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>6</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>8</Beam>
+        <Beam>6</Beam>
         <Note>
           <pitch>67</pitch>
           <tpc>15</tpc>
@@ -1051,26 +1089,65 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <durationType>quarter</durationType>
         <Note>
-          <pitch>53</pitch>
-          <tpc>13</tpc>
+          <pitch>62</pitch>
+          <tpc>16</tpc>
           </Note>
         <Note>
-          <pitch>58</pitch>
-          <tpc>12</tpc>
+          <pitch>65</pitch>
+          <tpc>13</tpc>
           </Note>
         </Chord>
       </Measure>
     <Measure number="16">
-      <TimeSig>
-        <subtype>132</subtype>
-        <den>4</den>
-        <nom1>2</nom1>
-        </TimeSig>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>60</pitch>
+          <tpc>14</tpc>
+          </Note>
+        <Note>
+          <pitch>65</pitch>
+          <tpc>13</tpc>
+          </Note>
+        <Note>
+          <pitch>67</pitch>
+          <tpc>15</tpc>
+          </Note>
+        </Chord>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>60</pitch>
+          <tpc>14</tpc>
+          </Note>
+        <Note>
+          <pitch>65</pitch>
+          <tpc>13</tpc>
+          </Note>
+        <Note>
+          <pitch>69</pitch>
+          <tpc>17</tpc>
+          </Note>
+        </Chord>
       <Rest>
-        <durationType>measure</durationType>
+        <durationType>quarter</durationType>
         </Rest>
       </Measure>
     <Measure number="17">
+      <TimeSig>
+        <subtype>68</subtype>
+        <den>4</den>
+        <nom1>1</nom1>
+        </TimeSig>
+      <Rest>
+        <durationType>quarter</durationType>
+        </Rest>
+      </Measure>
+    <Measure number="18">
+      <Text>
+        <style>17</style>
+        <subtype>MeasureNumber</subtype>
+        </Text>
       <Tuplet id="7">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1089,12 +1166,17 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
-      <Beam id="9">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
+      <Beam id="7">
         </Beam>
       <Chord>
         <Tuplet>7</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>9</Beam>
+        <Beam>7</Beam>
         <Note>
           <pitch>65</pitch>
           <tpc>13</tpc>
@@ -1107,7 +1189,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>7</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>9</Beam>
+        <Beam>7</Beam>
         <Note>
           <pitch>66</pitch>
           <tpc>8</tpc>
@@ -1120,7 +1202,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>7</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>9</Beam>
+        <Beam>7</Beam>
         <Note>
           <pitch>68</pitch>
           <tpc>10</tpc>
@@ -1146,7 +1228,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="18">
+    <Measure number="19">
       <Rest>
         <durationType>eighth</durationType>
         </Rest>
@@ -1161,11 +1243,11 @@ p, li { white-space: pre-wrap; }
           <tpc>11</tpc>
           </Note>
         </Chord>
-      <Beam id="10">
+      <Beam id="8">
         </Beam>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>10</Beam>
+        <Beam>8</Beam>
         <Note>
           <pitch>72</pitch>
           <tpc>14</tpc>
@@ -1177,7 +1259,7 @@ p, li { white-space: pre-wrap; }
         </Chord>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>10</Beam>
+        <Beam>8</Beam>
         <Note>
           <pitch>75</pitch>
           <tpc>11</tpc>
@@ -1188,11 +1270,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="19">
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
+    <Measure number="20">
       <Tuplet id="8">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1211,12 +1289,12 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
-      <Beam id="11">
+      <Beam id="9">
         </Beam>
       <Chord>
         <Tuplet>8</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>11</Beam>
+        <Beam>9</Beam>
         <Note>
           <pitch>77</pitch>
           <tpc>13</tpc>
@@ -1229,7 +1307,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>8</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>11</Beam>
+        <Beam>9</Beam>
         <Note>
           <pitch>78</pitch>
           <tpc>8</tpc>
@@ -1242,7 +1320,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>8</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>11</Beam>
+        <Beam>9</Beam>
         <Note>
           <pitch>80</pitch>
           <tpc>10</tpc>
@@ -1268,7 +1346,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="20">
+    <Measure number="21">
       <Rest>
         <durationType>eighth</durationType>
         </Rest>
@@ -1283,11 +1361,11 @@ p, li { white-space: pre-wrap; }
           <tpc>14</tpc>
           </Note>
         </Chord>
-      <Beam id="12">
+      <Beam id="10">
         </Beam>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>12</Beam>
+        <Beam>10</Beam>
         <Note>
           <pitch>72</pitch>
           <tpc>14</tpc>
@@ -1299,7 +1377,7 @@ p, li { white-space: pre-wrap; }
         </Chord>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>12</Beam>
+        <Beam>10</Beam>
         <Note>
           <pitch>66</pitch>
           <tpc>8</tpc>
@@ -1310,7 +1388,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="21">
+    <Measure number="22">
       <Tuplet id="9">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1329,12 +1407,17 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
-      <Beam id="13">
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
+      <Beam id="11">
         </Beam>
       <Chord>
         <Tuplet>9</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>13</Beam>
+        <Beam>11</Beam>
         <Note>
           <pitch>65</pitch>
           <tpc>13</tpc>
@@ -1347,7 +1430,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>9</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>13</Beam>
+        <Beam>11</Beam>
         <Note>
           <pitch>66</pitch>
           <tpc>8</tpc>
@@ -1360,7 +1443,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>9</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>13</Beam>
+        <Beam>11</Beam>
         <Note>
           <pitch>68</pitch>
           <tpc>10</tpc>
@@ -1385,11 +1468,11 @@ p, li { white-space: pre-wrap; }
           <tpc>14</tpc>
           </Note>
         </Chord>
-      <Beam id="14">
+      <Beam id="12">
         </Beam>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>14</Beam>
+        <Beam>12</Beam>
         <Note>
           <pitch>60</pitch>
           <tpc>14</tpc>
@@ -1413,7 +1496,7 @@ p, li { white-space: pre-wrap; }
         </Chord>
       <Chord>
         <durationType>eighth</durationType>
-        <Beam>14</Beam>
+        <Beam>12</Beam>
         <Note>
           <pitch>63</pitch>
           <tpc>11</tpc>
@@ -1432,7 +1515,11 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="22">
+    <Measure number="23">
+      <Text>
+        <style>17</style>
+        <subtype>MeasureNumber</subtype>
+        </Text>
       <Tuplet id="10">
         <numberType>0</numberType>
         <bracketType>0</bracketType>
@@ -1451,12 +1538,12 @@ p, li { white-space: pre-wrap; }
             </html-data>
           </Number>
         </Tuplet>
-      <Beam id="15">
+      <Beam id="13">
         </Beam>
       <Chord>
         <Tuplet>10</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>15</Beam>
+        <Beam>13</Beam>
         <Note>
           <pitch>70</pitch>
           <tpc>12</tpc>
@@ -1465,7 +1552,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>10</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>15</Beam>
+        <Beam>13</Beam>
         <Note>
           <pitch>68</pitch>
           <tpc>10</tpc>
@@ -1474,7 +1561,7 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <Tuplet>10</Tuplet>
         <durationType>eighth</durationType>
-        <Beam>15</Beam>
+        <Beam>13</Beam>
         <Note>
           <pitch>70</pitch>
           <tpc>12</tpc>
@@ -1500,11 +1587,6 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="23">
-      <Rest>
-        <durationType>measure</durationType>
-        </Rest>
-      </Measure>
     <Measure number="24">
       <Rest>
         <durationType>measure</durationType>
@@ -1516,10 +1598,6 @@ p, li { white-space: pre-wrap; }
         </Rest>
       </Measure>
     <Measure number="26">
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
       <Rest>
         <durationType>measure</durationType>
         </Rest>
@@ -1563,6 +1641,11 @@ p, li { white-space: pre-wrap; }
       <Rest>
         <durationType>measure</durationType>
         </Rest>
+      </Measure>
+    <Measure number="35">
+      <Rest>
+        <durationType>measure</durationType>
+        </Rest>
       <BarLine>
         <subtype>5</subtype>
         </BarLine>
@@ -1599,6 +1682,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="2">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1623,6 +1711,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="3">
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1647,6 +1740,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="4">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1671,6 +1769,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="5">
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1733,11 +1836,21 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="7">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Rest>
         <durationType>measure</durationType>
         </Rest>
       </Measure>
     <Measure number="8">
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1762,6 +1875,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="9">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1810,6 +1928,11 @@ p, li { white-space: pre-wrap; }
         </Chord>
       </Measure>
     <Measure number="11">
+      <TimeSig>
+        <subtype>132</subtype>
+        <den>4</den>
+        <nom1>2</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1870,6 +1993,11 @@ p, li { white-space: pre-wrap; }
         </Rest>
       </Measure>
     <Measure number="14">
+      <TimeSig>
+        <subtype>260</subtype>
+        <den>4</den>
+        <nom1>4</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1913,6 +2041,11 @@ p, li { white-space: pre-wrap; }
         </Rest>
       </Measure>
     <Measure number="15">
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1951,21 +2084,62 @@ p, li { white-space: pre-wrap; }
           <tpc>16</tpc>
           </Note>
         </Chord>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>46</pitch>
+          <tpc>12</tpc>
+          </Note>
+        <Note>
+          <pitch>56</pitch>
+          <tpc>10</tpc>
+          </Note>
+        </Chord>
+      </Measure>
+    <Measure number="16">
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>48</pitch>
+          <tpc>14</tpc>
+          </Note>
+        <Note>
+          <pitch>58</pitch>
+          <tpc>12</tpc>
+          </Note>
+        </Chord>
+      <Chord>
+        <durationType>quarter</durationType>
+        <Note>
+          <pitch>41</pitch>
+          <tpc>13</tpc>
+          </Note>
+        <Note>
+          <pitch>48</pitch>
+          <tpc>14</tpc>
+          </Note>
+        </Chord>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
       </Measure>
-    <Measure number="16">
+    <Measure number="17">
+      <TimeSig>
+        <subtype>68</subtype>
+        <den>4</den>
+        <nom1>1</nom1>
+        </TimeSig>
+      <Rest>
+        <selected>1</selected>
+        <durationType>quarter</durationType>
+        </Rest>
+      </Measure>
+    <Measure number="18">
       <TimeSig>
         <subtype>132</subtype>
         <den>4</den>
         <nom1>2</nom1>
         </TimeSig>
-      <Rest>
-        <durationType>measure</durationType>
-        </Rest>
-      </Measure>
-    <Measure number="17">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -1989,12 +2163,12 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="18">
+    <Measure number="19">
       <Rest>
         <durationType>measure</durationType>
         </Rest>
       </Measure>
-    <Measure number="19">
+    <Measure number="20">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -2018,12 +2192,17 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="20">
+    <Measure number="21">
       <Rest>
         <durationType>measure</durationType>
         </Rest>
       </Measure>
-    <Measure number="21">
+    <Measure number="22">
+      <TimeSig>
+        <subtype>196</subtype>
+        <den>4</den>
+        <nom1>3</nom1>
+        </TimeSig>
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -2058,7 +2237,7 @@ p, li { white-space: pre-wrap; }
           </Note>
         </Chord>
       </Measure>
-    <Measure number="22">
+    <Measure number="23">
       <Chord>
         <durationType>quarter</durationType>
         <Note>
@@ -2097,11 +2276,6 @@ p, li { white-space: pre-wrap; }
           <tpc>12</tpc>
           </Note>
         </Chord>
-      </Measure>
-    <Measure number="23">
-      <Rest>
-        <durationType>measure</durationType>
-        </Rest>
       </Measure>
     <Measure number="24">
       <Rest>
@@ -2158,6 +2332,11 @@ p, li { white-space: pre-wrap; }
         <durationType>measure</durationType>
         </Rest>
       </Measure>
+    <Measure number="35">
+      <Rest>
+        <durationType>measure</durationType>
+        </Rest>
+      </Measure>
     </Staff>
-  <cursorTrack>0</cursorTrack>
+  <cursorTrack>4</cursorTrack>
   </museScore>
